@@ -1,0 +1,11 @@
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --title-font: 'Roboto', sans-serif;
+    --logo-font: 'Raleway', sans-serif;
+    --text-color: #000000;
+    --text-accent: #ffffff;
+    --logo-accent: #2196F3;
+    --contact-color: #757575;
+    --background-color-dark: #2F303A;
+    --background-color-white: #ffffff;
+}

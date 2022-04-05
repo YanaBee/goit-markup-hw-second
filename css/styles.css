@@ -67,7 +67,7 @@ ul {
 }
 
 .hero {
-    background-color: #2F303A;
+    background-color: var(--background-color-grey);
 }
 
 .order-btn {

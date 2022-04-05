@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
+    background-color: var(--background-color-grey);
     color: var(--text-color);
 }
 
@@ -85,11 +85,6 @@ ul {
 
 .invisible-title {
     visibility: hidden;
-}
-
-.advantages,
-.works {
-    background-color: #F5F4FA;
 }
 
 .section-title {
@@ -201,9 +196,4 @@ a {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.9; 
-}
-
-.navigation-section,
-.projects-section {
-    background-color: var(--background-color-white);
 }

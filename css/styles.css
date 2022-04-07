@@ -13,6 +13,8 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
     background-color: var(--background-color-grey);
     color: var(--text-color);
 }
@@ -39,9 +41,9 @@ body {
 .menu-link {
     font-family: var(--main-font);
     color: var(--text-color);
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .menu-link:hover,
@@ -53,7 +55,6 @@ body {
 .contacts {
     font-family: var(--main-font);
     color: var(--contact-color);
-    font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
 }
@@ -73,8 +74,10 @@ ul {
     color: var(--text-accent);
     font-size: 44px;
     font-weight: 900;
+    letter-spacing: 0.06em;
     line-height: 1.4;
     text-align: center;
+    text-transform: uppercase;
 }
 
 .hero {
@@ -89,6 +92,7 @@ ul {
     background: var(--logo-accent);
     border-radius: 4px;
     text-align: center;
+    letter-spacing: 0.06em;
     cursor: pointer;
 }
 
@@ -99,25 +103,23 @@ ul {
 }
 
 .section-title {
-    color: var(--text-color);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.17;
     text-align: center; 
+    etter-spacing: 0.03em;
 }
 
 .main-text {
     color: var(--text-color);
-    font-size: 14px;
     line-height: 1.7;
 }
 
 .list-title {
     font-family: inherit;
     color: var(--text-color);
-    font-size: 14px;
     font-weight: 700;
-    line-height: 1.14em;
+    line-height: 1.14;
 }
 
 /* Our team */
@@ -133,7 +135,7 @@ ul {
 
 .position-title {
     font-family: inherit;
-    color: var(--text-color);
+    color: var(--contact-color);
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -152,7 +154,6 @@ ul {
 .adress {
     font-family: var(--main-font);
     color: var(--text-accent);
-    font-size: 14px;
     line-height: 1.7;
 }
 
@@ -163,8 +164,7 @@ ul {
 
 .contact-info {
     font-family: var(--main-font);
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 14px;   
+    color: rgba(255, 255, 255, 0.6);   
 }
 
 .contact-info:hover,
@@ -201,10 +201,13 @@ a {
     font-size: 18px;
     font-weight: 700;
     line-height: 2;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .project-type {
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.9; 
+    color: var(--contact-color);
 }

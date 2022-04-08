@@ -15,7 +15,6 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
-    background-color: var(--background-color-grey);
     color: var(--text-color);
 }
 
@@ -103,34 +102,38 @@ ul {
 }
 
 .section-title {
-    font-size: 36px;
+    font-family: var(--main-font);
     font-weight: 700;
-    line-height: 1.17;
-    text-align: center; 
-    etter-spacing: 0.03em;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-style: normal;
 }
 
 .main-text {
-    color: var(--text-color);
+    color: var(--contact-color);
     line-height: 1.7;
 }
 
 .list-title {
-    font-family: inherit;
-    color: var(--text-color);
     font-weight: 700;
-    line-height: 1.14;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-style: normal;
+
 }
 
 /* Our team */
 
 .name-title {
-    font-family: inherit;
-    color: var(--text-color);
-    font-size: 16px;
     font-weight: 500;
-    line-height: 1.19; 
+    font-size: 16px;
+    line-height: 19px;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .position-title {
@@ -196,17 +199,20 @@ a {
     background: var(--logo-accent);
 }
 
+a { 
+    color: inherit; 
+}
+
 .projects {
+    font-family: var(--main-font);
     color: var(--text-color);
-    font-size: 18px;
     font-weight: 700;
-    line-height: 2;
+    font-size: 18px;
+    line-height: 36px;
     letter-spacing: 0.06em;
-    text-transform: uppercase;
 }
 
 .project-type {
-    color: var(--text-color);
     font-size: 16px;
     line-height: 1.9; 
     color: var(--contact-color);
